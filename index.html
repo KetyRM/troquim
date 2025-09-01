@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="CSS/site.css">
+    <title> TROQUIM</title>
+</head>
+<body>
+
+    <header> <!--topo do site, o cabeçalho-->
+        <nav> <!--Indica que havera uma navegação no site, indicando que há links-->
+            <img id="logo"    src="Imagens/logo.svg" alt="logo da pagina">
+            <ul> <!-- Cria uma lista não ordenada, e ele agrupa os itens-->
+                <li> <a href="index.html">início</a>    </li> <!--Marca cada item da lista, ajuda na ordem semantica. a teg <a> indica uma ancora-->
+                <li> <a href="ia.html">ia</a>        </li> 
+                <li> <a href="calculadora.html">calculadora   </a> </li> 
+                <li> <a href="parceiros.html">parceiros</a> </li> 
+            </ul>
+        </nav> 
+    </header>
+
+    
+    <main> <!--Sessão principal de informações-->
+
+        <section id="um"> <!--Bloco de conteúdo-->
+            <h2>troquim</h2>
+            <h1>desagofue suas finanças com o troquim, a plataforma de estudos financeiros</h1>
+            <img id="bonecos"   src="Imagens/Bonecos da pagina principal.svg" alt="vários bonecos juntos e animados">
+        </section> 
+
+
+        <section id="dois">
+            <h1></h1>
+            <p></p>
+            <img id="copa" src="Imagens/copa-logo.svg" alt="Logo da NLW">
+            <div class="card" ondblclick="changeCard(event)"> <!-- Propriedade do JS para mudar o card no click-->
+                <img src="https://github.com/KetyRM.png" alt="Foto de Ketlyn">
+                <div class="info">
+                    <h1>Ketlyn Rodrigues</h1>
+                    <p>Studant at Rocketseat</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="tres"> <!--Sessão de duvidas-->
+            <details>
+                <summary>
+                    <h1> somos um portal gratuito?</h1>
+                </summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempore nisi praesentium. Optio, corrupti enim amet harum cum, repellendus officia hic doloribus quae placeat laudantium ipsam ab temporibus ut! Quos?</p>
+            </details>
+
+            <details>
+                <summary>
+                    <h1> como funcionamos</h1>
+                </summary>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid debitis illum deleniti ea? Fugit aliquam alias iste obcaecati dolorum delectus reiciendis veritatis tempora non, ipsum sunt dolorem ipsa eos earum!</p>
+            </details>
+
+            <details>
+                <summary>
+                    <h1> como usar os recusos</h1>
+                </summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quia maxime temporibus similique, dolores voluptatibus modi deserunt accusantium earum amet voluptatem explicabo sunt laboriosam atque, repellat eum saepe animi? Eligendi.</p>
+            </details>
+        </section>
+        <!--Fim do bloco tres-->
+
+
+        <section id="quatro">
+            <img>
+            <img>
+            <img>
+            <button>Clique aqui</button>
+        </section>
+
+    </main>
+
+
+    <footer></footer>
+     <script src="/JS/script.js"></script> <!--Linkar o java no HTML-->
+</body>
+</html>
